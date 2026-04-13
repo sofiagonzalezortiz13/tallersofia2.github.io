@@ -9,7 +9,7 @@ function App() {
   
   const [cart, setCart] = useState([]);
 
-  // 2. Función para agregar productos
+  
   const addToCart = (product) => {
     setCart([...cart, product]);
   };
@@ -20,8 +20,8 @@ function App() {
   };
 
   return (
-    <BrowserRouter basename="/taller2sofia">
-      {/* Pasamos la cantidad de productos al Header */}
+    <BrowserRouter basename="/tallersofia2.github.io">
+      
       <Header cartCount={cart.length} />
       
       <Routes>
